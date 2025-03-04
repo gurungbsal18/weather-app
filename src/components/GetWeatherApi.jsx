@@ -40,6 +40,7 @@ function GetWeatherApi() {
     fetchData(inputValue);
   };
 
+  console.log(weatherData);
   return (
     <>
       <h1 className="font-bold text-3xl! md:text-4xl text-white mb-5">
