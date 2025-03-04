@@ -62,7 +62,7 @@ function GetWeatherApi() {
                 placeholder="Search by location"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
-                className="border px-4 py-2 rounded-sm border-gray-300 bg-gray-100 w-full"
+                className="border px-4 py-2 rounded-sm border-gray-300 bg-gray-100 w-full text-gray-600"
               />
               <button
                 className="search-button bg-black! text-white text-sm! hover:border-black!"
