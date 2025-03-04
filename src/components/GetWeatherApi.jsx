@@ -42,7 +42,7 @@ function GetWeatherApi() {
 
   return (
     <>
-      <h1 className="font-bold text-3xl! md:text-4xl text-white mb-5">
+      <h1 className="font-bold text-3xl! md:text-4xl text-red mb-5">
         Weather Report
       </h1>
 
