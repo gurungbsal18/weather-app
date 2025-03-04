@@ -87,14 +87,14 @@ function GetWeatherApi() {
                   {weatherData.current.temp_c}°C
                 </span>
               </p>
-              <p className="text-xl">
+              <p className="text-xl text-black">
                 <span className="font-bold">Condition:</span>{" "}
                 {weatherData.current.condition.text}
               </p>
               <div className="flex flex-col md:flex-row items-center justify-between">
                 {weatherData.forecast &&
                 weatherData.forecast.forecastday[0].astro ? (
-                  <p className="flex items-center gap-2">
+                  <p className="flex items-center gap-2 text-black">
                     <FiSunrise /> <span className="font-bold">Sunrise:</span>{" "}
                     {weatherData.forecast.forecastday[0].astro.sunrise}
                   </p>
@@ -103,12 +103,12 @@ function GetWeatherApi() {
                 )}
                 {weatherData.forecast &&
                 weatherData.forecast.forecastday[0].astro ? (
-                  <p className="flex items-center gap-2">
+                  <p className="flex items-center gap-2 text-black">
                     <FiSunset /> <span className="font-bold">Sunrise:</span>{" "}
                     {weatherData.forecast.forecastday[0].astro.sunset}
                   </p>
                 ) : (
-                  <p>Sunset data not available</p>
+                  <p className="text-red-600">Sunset data not available</p>
                 )}
               </div>
               {weatherData.alerts?.alert?.length > 0 ? (
