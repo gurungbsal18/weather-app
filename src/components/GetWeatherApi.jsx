@@ -6,7 +6,7 @@ import { FiSunset } from "react-icons/fi";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const BASE_URL = "http://api.weatherapi.com/v1/forecast.json";
-const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+const API_KEY = "7c5ec6c7a8a84f66af9181736240602";
 
 function GetWeatherApi() {
   const [weatherData, setWeatherData] = useState("");
@@ -42,7 +42,7 @@ function GetWeatherApi() {
 
   return (
     <>
-      <h1 className="font-bold text-3xl! md:text-4xl text-red mb-5">
+      <h1 className="font-bold text-3xl! md:text-4xl text-white mb-5">
         Weather Report
       </h1>
 
