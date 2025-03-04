@@ -1,5 +1,5 @@
 import "./App.css";
-import GetWeatherApi from "../api/GetWeatherApi";
+import GetWeatherApi from "./components/GetWeatherApi";
 
 function App() {
   return (
