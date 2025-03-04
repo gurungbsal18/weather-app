@@ -81,7 +81,7 @@ function GetWeatherApi() {
                 {/* <FaLocationDot />  */}
                 {weatherData.location.name}, {weatherData.location.country}
               </h2>
-              <p className="text-xl">
+              <p className="text-xl text-black">
                 {/* <span className="font-bold">Temperature:</span>{" "} */}
                 <span className="text-8xl font-extrabold">
                   {weatherData.current.temp_c}°C
