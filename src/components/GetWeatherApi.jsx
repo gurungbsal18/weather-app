@@ -7,7 +7,7 @@ import { FiSunset } from "react-icons/fi";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const BASE_URL = "http://api.weatherapi.com/v1/forecast.json";
-const API_KEY = "7c5ec6c7a8a84f66af9181736240602";
+const API_KEY = import.meta.env.VITE_API_BASE_URL;
 
 function GetWeatherApi() {
   const [weatherData, setWeatherData] = useState("");
